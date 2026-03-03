@@ -1,0 +1,8 @@
+# Secrets
+.env
+
+# Temporary
+*.tmp
+*.log
+temp/
+*.backup
