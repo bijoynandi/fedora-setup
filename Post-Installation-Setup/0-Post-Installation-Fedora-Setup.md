@@ -96,16 +96,9 @@ hostnamectl
 
 ```bash
 # First restore these (IMPORTANT)
-rsync -avH --dry-run /run/media/bijoy/system-backup-sp/home/bijoy/Documents/ /home/bijoy/Documents/
-rsync -avH --dry-run /run/media/bijoy/system-backup-sp/home/bijoy/Music/ /home/bijoy/Music/
-rsync -avH --dry-run /run/media/bijoy/system-backup-sp/home/bijoy/Pictures/ /home/bijoy/Pictures/
-
-# After all setup done (LATER)
-# From system-backup-sp
-rsync -avH --dry-run /run/media/bijoy/system-backup-sp/home/bijoy/Videos/ /home/bijoy/Videos/
-
-# From system-backup-hp
-rsync -avH --dry-run /run/media/bijoy/system-backup-hp/home/bijoy/Videos/ /home/bijoy/Videos/
+rsync -avH --dry-run /run/media/bijoy/system-backup-sp/latest-system-backup/home/home/bijoy/Documents/ /home/bijoy/Documents/
+rsync -avH --dry-run /run/media/bijoy/system-backup-sp/latest-system-backup/home/home/bijoy/Music/ /home/bijoy/Music/
+rsync -avH --dry-run /run/media/bijoy/system-backup-sp/latest-system-backup/home/home/bijoy/Pictures/ /home/bijoy/Pictures/
 ```
 
 **See Backup Strategies below to backup and restore the system**
@@ -2187,7 +2180,8 @@ sudo dnf install \
   tesseract \
   kcolorchooser \
   ktorrent \
-  fdupes
+  fdupes \
+  kate
 ```
 
 **What you just installed:**
@@ -2211,6 +2205,7 @@ sudo dnf install \
 - **kcolorchooser**: A color chooser
 - **ktorrent**: A BitTorrent program
 - **fdupes**: Finds duplicate files in a given set of directories
+- **kate**: Advanced Text Editor
 
 ---
 
