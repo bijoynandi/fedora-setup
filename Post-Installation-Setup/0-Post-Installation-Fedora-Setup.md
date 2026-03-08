@@ -1730,6 +1730,7 @@ Thumbs.db
 .vscode/
 .idea/
 .qodo/
+*.kate-swp
 *.swp
 *.swo
 *~
