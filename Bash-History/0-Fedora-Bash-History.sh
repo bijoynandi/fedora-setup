@@ -36,7 +36,6 @@ tree -L 1 /home/bijoy/
 id
 sudo --help
 echo $HISTSIZE
-echo $COLORS
 echo $LS_COLORS
 echo $DISPLAY
 alias
@@ -55,7 +54,6 @@ sudo btrfs filesystem df /home
 uptime
 users
 firefox --version
-kwrite
 dolphin
 konsole
 postgres --version
@@ -116,8 +114,6 @@ mokutil --sb-state
 fwupdmgr get-updates
 sudo fwupdmgr update
 cat /etc/yum.repos.d/fedora.repo | grep metalink
-dnf repolist -v
-dnf repolist -verbose
 dnf repolist --help
 dnf repolist --all
 dnf repoinfo fedora
@@ -127,7 +123,6 @@ ls /tmp/
 fastfetch -c all.jsonc
 fastfetch -c all
 jobs
-kwrite &
 ncdu --version
 fold --help
 tree -L 2 /
@@ -153,7 +148,6 @@ journalctl | wc -l
 btrfs filesystem df /
 btrfs filesystem df /home
 sudo compsize /home/
-sudo compsize /
 sudo btrfs subvolume list /
 tree -L 1 /home
 cht.sh tree
@@ -306,7 +300,6 @@ aliases
 topme
 htop
 ranger
-fastf
 sudo virsh shutdown server
 poweroff
 /bin/bash /home/bijoy/Documents/Development/Projects/my-script/lock-and-turn-off/lock-and-turnoff.sh
