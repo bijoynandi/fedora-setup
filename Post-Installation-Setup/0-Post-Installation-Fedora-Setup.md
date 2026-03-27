@@ -1506,7 +1506,7 @@ sudo mkdir -p /opt/jetbrains
 cd ~/Downloads
 
 # Download (check jetbrains.com for latest)
-wget https://download.jetbrains.com/python/pycharm-2025.3.3.tar.gz
+wget https://download.jetbrains.com/python/pycharm-2025.3.4.tar.gz
 
 # Extract
 tar -xzf pycharm-*.tar.gz
@@ -1530,9 +1530,9 @@ Version=1.0
 Type=Application
 Name=PyCharm
 Comment=Python IDE for Professional Developers
-Exec=/opt/jetbrains/pycharm-2025.3.3/bin/pycharm
-Icon=/opt/jetbrains/pycharm-2025.3.3/bin/pycharm.png
-Path=/opt/jetbrains/pycharm-2025.3.3/bin/
+Exec=/opt/jetbrains/pycharm-2025.3.4/bin/pycharm
+Icon=/opt/jetbrains/pycharm-2025.3.4/bin/pycharm.png
+Path=/opt/jetbrains/pycharm-2025.3.4/bin/
 StartupNotify=true
 StartupWMClass=jetbrains-pycharm
 Categories=Development;IDE;
