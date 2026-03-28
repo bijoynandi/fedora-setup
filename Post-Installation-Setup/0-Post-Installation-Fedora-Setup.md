@@ -1566,7 +1566,7 @@ sudo pycharm
 
 ```bash
 cd ~/Downloads
-wget https://download.jetbrains.com/datagrip/datagrip-2025.3.5.tar.gz
+wget https://download.jetbrains.com/datagrip/datagrip-2026.1.tar.gz
 tar -xzf datagrip-*.tar.gz
 rm datagrip-*.tar.gz
 sudo mv DataGrip-* /opt/jetbrains/
@@ -1583,9 +1583,9 @@ Version=1.0
 Type=Application
 Name=DataGrip
 Comment=Cross-Platform IDE for Databases & SQL
-Exec=/opt/jetbrains/DataGrip-2025.3.5/bin/datagrip
-Icon=/opt/jetbrains/DataGrip-2025.3.5/bin/datagrip.svg
-Path=/opt/jetbrains/DataGrip-2025.3.5/bin/
+Exec=/opt/jetbrains/DataGrip-2026.1/bin/datagrip
+Icon=/opt/jetbrains/DataGrip-2026.1/bin/datagrip.svg
+Path=/opt/jetbrains/DataGrip-2026.1/bin/
 StartupNotify=true
 StartupWMClass=jetbrains-datagrip
 Categories=Development;Database;IDE;
